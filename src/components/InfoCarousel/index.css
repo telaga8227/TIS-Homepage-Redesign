@@ -1,0 +1,101 @@
+.showcase-strip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+
+.carousel-shell {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    width: 90px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-arrow {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.nav-arrow:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.carousel-slide-view {
+    flex: 1;
+    display: flex;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    min-height: 350px;
+    /* Keeps layout size consistent */
+}
+
+.slide-graphic-placeholder {
+    flex: 1;
+    height: 350px;
+    overflow: hidden;
+}
+
+.campus-img-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.slide-content-placeholder {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.slide-content-placeholder h3 {
+    font-size: 1.8rem;
+    color: #222;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+}
+
+.slide-content-placeholder p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .carousel-slide-view {
+        flex-direction: column;
+    }
+
+    .slide-graphic-placeholder {
+        height: 200px;
+    }
+
+    .slide-content-placeholder {
+        padding: 20px;
+    }
+}

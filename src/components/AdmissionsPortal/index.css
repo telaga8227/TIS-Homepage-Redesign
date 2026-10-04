@@ -1,0 +1,133 @@
+.admissions-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+.portal-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 4rem;
+}
+
+@media (max-width: 850px) {
+    .portal-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+.portal-contact-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 3rem;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.portal-contact-card h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #111111;
+}
+
+.divider-bar {
+    border: none;
+    height: 3px;
+    background-color: #d32f2f;
+    width: 60px;
+}
+
+.contact-item {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444444;
+}
+
+.portal-form-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 3rem;
+    border-radius: 24px;
+}
+
+.portal-form-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #00796b;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+}
+
+.core-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.core-form input[type="text"],
+.core-form input[type="email"],
+.core-form input[type="tel"],
+.core-form select {
+    width: 100%;
+    padding: 0.85rem 1.25rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background-color: #f8fafc;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.core-form input:focus,
+.core-form select:focus {
+    border-color: #00796b;
+}
+
+.input-row-phone {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.prefix-badge {
+    background-color: #e2e8f0;
+    border: 1px solid #cbd5e1;
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #475569;
+}
+
+.checkbox-agreement {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    font-size: 0.85rem;
+    color: #555555;
+    line-height: 1.4;
+}
+
+.checkbox-agreement input {
+    margin-top: 0.2rem;
+}
+
+.form-submit-btn {
+    background-color: #d32f2f;
+    color: #ffffff;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.2);
+    transition: background-color 0.2s;
+}
+
+.form-submit-btn:hover {
+    background-color: #b71c1c;
+}
