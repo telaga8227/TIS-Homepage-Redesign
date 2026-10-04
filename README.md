@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Redesigned Web Platform — Tula's International School
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Single-page application frontend architecture mockup redesign built entirely from scratch to upgrade the digital presentation layers of *Tula's International School (TIS)*. 
 
-## Available Scripts
+This platform completely implements responsive layouts, CSS keyframe entry sequences, an interactive admissions inquiry system, and isolated dynamic sub-page content panels.
 
-In the project directory, you can run:
+## Deployed URLs
+- Live Deployment Link: [https://tis-homepage-redesign-eta.vercel.app/]
+- GitHub Code Repository: [https://github.com/telaga8227/TIS-Homepage-Redesign]
 
-### `npm start`
+##  High-Performance Architecture Stack
+- Framework Core Library: React.js 
+- Styling Architecture: CSS 
+- Native Web Interfaces:* Core React State Management (useState, useEffect)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features Build
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Unified Un-scoped Component Folder Breakdown
+To satisfy high structural readability guidelines, every layout element is completely isolated inside its own standalone component workspace file structure utilizing clear naming standards:
+- Navbar/ - Pinned layout header bar with fluid multi-level dropdown directory tree matrices.
+- Content/ - Crimson branding block hosting left-aligned editorial layout matrices, circle visual graphic displays, and the inline Eva Assistant panel.
+- SportsGrid/ - World-class modern co-curricular tracking arrays.
+- InfoCarousel/ - Architectural asset showcase smooth interactive slide states.
+- AdmissionsPortal/ - Base entry query data form logs matching official campus details.
 
-### `npm test`
+### 2. Pinned Top Inline Hamburger Array
+- Implemented a clean structural Hamburger Menu toggle trigger (☰) embedded inside the horizontal desktop layout navigation header array located exactly right beside the ADMISSION text option element link tree.
+- Clicking this custom navigation icon smoothly opens up a responsive, full-screen interactive paths catalog overlay drawer pane immediately.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Isolated Standalone Eva Information Assistant
+- Features an animated virtual assistant module (Eva) completely separated from graphic assets and pinned as an interactive pill badge on the upper left wall boundary layout track layers.
+- Clicking the overlay trigger reveals a fluid chat dialog pane window that hooks directly into an automated text message transition wheel cycling live admission updates every 3 seconds.
 
-### `npm run build`
+### 4. Lower Left Pinned WhatsApp Badge
+- Outfitted with an explicit floating WhatsApp badge image locked completely inside the bottom-left viewport boundary zone.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Local Development Project Setup Blueprint
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these initialization parameters to get your offline copy running in under 2 minutes:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. *Clone the project file directory node:*
+   bash
+   git clone https://github.com
+   cd tulas-redesign/frontend
+   
 
-### `npm run eject`
+2. *Download your core dependencies structural packages:*
+   bash
+   npm install
+   
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. *Ignite the high-speed development server utility:*
+   bash
+   npm start
